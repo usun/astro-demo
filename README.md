@@ -62,4 +62,9 @@ Feel free to check [our documentation](https://docs.astro.build) or jump into ou
 - astro api
   - import.meta.glob() 从项目中访问文件中的数据
   - getStaticPaths() 批量创建多个页面（路由）
-  - Astro 的 RSS 包来创建一个 RSS 订阅
+  - Astro 的 RSS 包来创建一个 RSS 订阅:http://localhost:4321/rss.xml
+- Astro 群岛将前端框架组件引入你的 Astro 网站
+  - npx astro add preact
+  - Greeting.jsx 组件  client:load/visible 
+- 创建内容集合：src/blog/
+  - npx @astrojs/upgrade
